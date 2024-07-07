@@ -1,27 +1,24 @@
 
 export default [
 	{
-		sender: "Jonas",
+		sender: "Fireship",
 		image: "https://picsum.photos/id/100/200/200",
-		endpoint: "@jonas",
-		text: "Sunt amet excepteur ipsum velit est minim aliqua nisi dolor non occaecat ullamco dolor pariatur.",
-		date: new Date(),
-		likes: 4
+		endpoint: "@fireship_dev",
+		text: "Commodo enim commodo voluptate ut non ad magna exercitation culpa adipisicing anim nisi commodo cillum. Cupidatat elit dolor tempor nostrud esse dolore est sit ullamco ex nostrud ex aliquip.",
+		date: new Date()
 	},
 	{
-		sender: "Jonas",
+		sender: "unyt.org",
 		image: "https://picsum.photos/id/101/200/200",
-		endpoint: "@jonas",
-		text: "Duis labore culpa ex mollit tempor occaecat ex non. Sunt amet excepteur ipsum velit est minim aliqua nisi dolor non occaecat ullamco dolor pariatur.",
-		date: new Date(),
-		likes: 4
+		endpoint: "@unytorg",
+		text: "Ullamco qui Lorem id commodo ea aliqua id. Voluptate laboris sunt duis ea cupidatat nisi minim dolore irure commodo ipsum consectetur. Dolor reprehenderit laborum sit laboris velit amet et tempor mollit.",
+		date: new Date()
 	},
 	{
-		sender: "Jonas",
+		sender: "Elon Musk",
 		image: "https://picsum.photos/id/102/200/200",
-		endpoint: "@jonas",
-		text: "Labore adipisicing sint dolore laborum dolore sunt sint voluptate cillum pariatur ipsum aliqua.Nisi ad sunt aliquip in culpa amet ipsum exercitation.Duis labore culpa ex mollit tempor occaecat ex non. Culpa sit minim deserunt ea ullamco occaecat ipsum commodo aute laborum reprehenderit ut.Sunt amet excepteur ipsum velit est minim aliqua nisi dolor non occaecat ullamco dolor pariatur.",
-		date: new Date(),
-		likes: 4
+		endpoint: "@elonmusk",
+		text: "Ad ullamco cillum in ut dolore ullamco culpa. In cillum consequat eiusmod magna proident ea occaecat esse culpa commodo et dolore elit excepteur.",
+		date: new Date()
 	}
 ] as const;

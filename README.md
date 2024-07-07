@@ -5,6 +5,8 @@ This repository provides a simple UIX setup, to showcase the new [View Transitio
 
 The **View Transitions API** provides a mechanism for easily creating animated transitions between different website views. This includes animating between DOM states in a single-page app (SPA), and animating the navigation between documents in a multi-page app (MPA).
 
+<video src=".github/example.mp4" width="500"/>
+
 
 ## Enable View Transitions for UIX
 
