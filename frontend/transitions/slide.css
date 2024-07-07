@@ -1,0 +1,62 @@
+.home {
+	view-transition-name: home; /* Our custom view transition for the home page */
+}
+.post {
+	view-transition-name: post; /* Our custom view transition for the post page */
+}
+
+/* navigation home -> post */
+/* Translate the home page out to the left */
+::view-transition-old(home) {
+	animation: 0.25s linear both out-left;
+}
+/* Translate the post page in from the right */
+::view-transition-new(post) {
+	animation: 0.25s 0.25s linear both in-right;
+}
+
+/* navigation post -> home */
+/* Translate the post page out to the right */
+::view-transition-old(post) {
+	animation: 0.25s linear both out-right;
+}
+/* Translate the home page in from the left */
+::view-transition-new(home) {
+	animation: 0.25s 0.25s linear both in-left;
+}
+
+@keyframes in-right {
+	from {
+		transform: translateX(100vw);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes out-left {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(-100vw);
+	}
+}
+
+@keyframes out-right {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100vw);
+	}
+}
+
+@keyframes in-left {
+	from {
+		transform: translateX(-100vw);
+	}
+	to {
+		transform: translateX(0);
+	}
+}

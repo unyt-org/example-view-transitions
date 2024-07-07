@@ -1,3 +1,3 @@
-name: "view-trans",
-description: "A simple UIX app project",
-expertimental_features: ["view-transitions"]
+name: "View Transitions with UIX",
+description: "A simple project to demonstrate the new View-Transition API",
+experimental_features: ["view-transitions"]
