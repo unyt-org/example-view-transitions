@@ -3,7 +3,7 @@ import List from "common/List.ts";
 export default 
 	<main>
 		<h1>Home</h1>
-		<div class="container">
+		<div class="home">
 			{List.map((entry, index) => <a href={`/post/${index}`}>
 				<img src={entry.image}/>
 				<div>

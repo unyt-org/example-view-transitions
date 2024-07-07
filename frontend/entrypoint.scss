@@ -1,10 +1,12 @@
 body {
     background-color: black;
-    .container {
+    main {
+        max-width: 800px;
+    }
+    .home {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        max-width: 800px;
         &>a {
             text-decoration: none;
             color: var(--text);
@@ -37,6 +39,45 @@ body {
                 }
                 img {
                     transform: scale(1.1);
+                }
+            }
+        }
+    }
+    .post {
+        margin-top: 20px;
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        &>.header {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            &>div {
+                display: flex;
+                &>span {
+                    &:first-of-type {
+                        font-weight: bold;
+                        font-size: large;
+                    }
+                }
+                flex-direction: column;
+            }
+            &>img {
+                border-radius: 1000px;
+                width: 70px;
+            }
+        }
+        &>.date {
+            opacity: 0.8;
+        }
+        &>.footer {
+            display: flex;
+            gap: 10px;
+            &>div {
+                display: flex;
+                gap: 5px;
+                &>span {
+                    font-weight: bold;
                 }
             }
         }
