@@ -15,9 +15,9 @@ export default [
 		date: new Date()
 	},
 	{
-		sender: "Elon Musk",
+		sender: "Deno",
 		image: "https://picsum.photos/id/102/200/200",
-		endpoint: "@elonmusk",
+		endpoint: "@deno",
 		text: "Ad ullamco cillum in ut dolore ullamco culpa. In cillum consequat eiusmod magna proident ea occaecat esse culpa commodo et dolore elit excepteur.",
 		date: new Date()
 	}
